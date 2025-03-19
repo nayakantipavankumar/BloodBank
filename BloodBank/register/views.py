@@ -6,4 +6,5 @@ from .models import UserRegister
 def UserRegisterView(request):
     Data=request.POST
     print(Data)
+    print("user name is : ", Data['your_name'])
     return render(request,"register.html",Data)
