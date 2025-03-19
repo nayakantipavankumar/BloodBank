@@ -6,5 +6,6 @@ class UserRegister(models.Model):
     Name= models.CharField(max_length=100)
     BloodGroup=models.CharField(max_length=3)
     City=models.CharField(max_length=30)
+    ZipCode=models.IntegerField()
     State=models.CharField(max_length=50)
     Age=models.IntegerField()
