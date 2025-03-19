@@ -6,4 +6,4 @@ from .models import UserRegister
 def UserRegisterView(request):
     Data=request.POST
     print(Data)
-    return render("submitted.html")
+    return render(request,"register.html",Data)
