@@ -1,0 +1,4 @@
+enc
+__pycache__/
+db.sqlit3
+migrations
